@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>Aguia Menu</title>
+  </head>
+  <body>
+    <img>
+  </body>
+  <script>
+    const test = new URLSearchParams(window.location.search)
+    document.querySelector('img').src = test.get('id')
+  </script>
+</html>
