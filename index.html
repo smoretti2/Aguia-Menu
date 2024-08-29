@@ -7,6 +7,6 @@
   </body>
   <script>
     const test = new URLSearchParams(window.location.search)
-    document.querySelector('img').src = test.get('id')
+    document.querySelector('img').src = "./"+test.get('id')
   </script>
 </html>
